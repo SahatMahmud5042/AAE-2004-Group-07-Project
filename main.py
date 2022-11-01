@@ -382,7 +382,7 @@ def main():
 
     for i in range(25, 35):
         ox.append(i)
-        oy.append(7/2*i+(-5))
+        oy.append(7/2*i-92.5)
 
     for i in range(10,50):
         ox.append(i)
