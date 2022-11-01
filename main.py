@@ -287,11 +287,11 @@ def main():
 
 
     # set obstacle positions for group 7
-    ox, oy = [], []
+   ox, oy = [], []
     for i in range(-10, 60): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
-    for i in range(-10, 60): # draw the right border
+    for i in range(-10, 61): # draw the right border
         ox.append(60.0)
         oy.append(i)
     for i in range(-10, 60): # draw the top border
@@ -301,35 +301,30 @@ def main():
         ox.append(-10.0)
         oy.append(i)
 
-    for i in range(0,30): # draw the free border
+    for i in range(0, 30): # draw the free border
         ox.append(i)
-        oy.append(5/6*i+15)
+        oy.append(15 + i*(5/6))
 
-    for i in range(25, 35):
-        ox.append(i)
-        oy.append(7/2*i+(-92.5))
-
-    for i in range(10,50):
-        ox.append(i)
-        oy.append(-0.2*i+60)
-
+    for i in np.arange(0, 10, 0.35):
+        ox.append(i + 25)
+        oy.append(-5 + i*(7/2))
     
-    # for i in range(40, 45): # draw the button border 
-    #     ox.append(i)
-    #     oy.append(30.0)
+    for i in range(0, 40): # draw the button border 
+         ox.append(i + 10)
+         oy.append(60 + i*(-1/4))
 
 
     # set cost intesive area 1
     tc_x, tc_y = [], []
-    for i in range(0,10):
-        for j in range(30,50):
+    for i in range(5, 20):
+        for j in range(0, 10):
             tc_x.append(i)
             tc_y.append(j)
     
     # set cost intesive area 2
     fc_x, fc_y = [], []
-    for i in range(5,20):
-        for j in range(0,10):
+    for i in range(0, 10):
+        for j in range(30, 50):
             fc_x.append(i)
             fc_y.append(j)
 
