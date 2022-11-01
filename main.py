@@ -14,7 +14,7 @@ This is the simple code for path planning class
 
 
 import math
-
+import numpy as np
 import matplotlib.pyplot as plt
 
 show_animation = True
