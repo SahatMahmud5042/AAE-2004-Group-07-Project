@@ -50,7 +50,7 @@ class AStarPlanner:
         
 
         self.Delta_C1 = 0.2 # cost intensive area 1 modifier
-        self.Delta_C2 = 1 # cost intensive area 2 modifier
+        self.Delta_C2 = 0.4 # cost intensive area 2 modifier
 
         self.costPerGrid = 1 
 
@@ -90,6 +90,7 @@ class AStarPlanner:
         open_set[self.calc_grid_index(start_node)] = start_node # node index is the grid index
 
         while 1:
+            # print("------------------------------ " )
             if len(open_set) == 0:
                 print("Open set is empty..")
                 break
@@ -117,8 +118,8 @@ class AStarPlanner:
             if current.x == goal_node.x and current.y == goal_node.y:
                 print("Total Trip time required -> ",current.cost )
                 goal_node.parent_index = current.parent_index
-                goal_node.cost = current.cost2000
-            while True:    
+                goal_node.cost = current.cost
+
                 passengers= int(input("the number of passengers:")) 
                 FR=int(input("the number of flights :"))
                 FC=eval(input("the cost of fuel"))
@@ -168,7 +169,7 @@ class AStarPlanner:
                         print("the total cost of operating A330 is the lowest, which is", A330_cost)
                      if "A350_cost" < "A321_cost" and "A350_cost" < "A3330_cost":
                         print("the total cost of operating A350 is the lowest, which is", A350_cost)
-                     break
+                
 
                
 
@@ -377,10 +378,10 @@ def main():
 
     # set obstacle positions for group 9
     ox, oy = [], []
-    for i in range(-10, 60): # draw the button border 
+    for i in range(-1-0, 60): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
-    for i in range(-10, 61): # draw the right border
+    for i in range(-10, 60): # draw the right border
         ox.append(60.0)
         oy.append(i)
     for i in range(-10, 60): # draw the top border
@@ -397,6 +398,8 @@ def main():
     for i in range(25, 60):
         ox.append(i)
         oy.append(i-25)
+
+  
     
     # for i in range(40, 45): # draw the button border 
     #     ox.append(i)
