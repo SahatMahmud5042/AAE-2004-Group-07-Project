@@ -336,7 +336,7 @@ def main():
 
 
     # set obstacle positions for group 7
-   ox, oy = [], []
+    ox, oy = [], []
     for i in range(-10, 60): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
