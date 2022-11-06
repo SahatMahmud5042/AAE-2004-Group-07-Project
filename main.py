@@ -116,7 +116,7 @@ class AStarPlanner:
                 goal_node.cost = current.cost
                 
                 passengers= int(input("the number of passengers:")) 
-                FR=int(input("the number of flights :"))
+               
                 FC=eval(input("the cost of fuel"))
                
                 TC=str(input("the class of time cost"))
@@ -138,31 +138,27 @@ class AStarPlanner:
                         print("the total cost of operating A350 is the lowest, which is", A350_cost)
                      break
                 if TC=="MEDIUM":
-                     A321_cost=int((FC*54*current.cost+MEDIUM[0]*current.cost+1800)*math.ceil(passengers/200))
-                     print("The cost of A321 is:",A321_cost)
+                     #Considering the maximum number of the flights, A321 does not meet the conditions.
                      A330_cost=int((FC*84*current.cost+MEDIUM[1]*current.cost+2000)*math.ceil(passengers/300))
                      print("The cost of A330 is:",A330_cost)
                      A350_cost=int((FC*90*current.cost+MEDIUM[2]*current.cost+2600)*math.ceil(passengers/350))
                      print("The cost of A350 is:",A350_cost)
-                     if "A321_cost" < "A330_cost" and "A321_cost" < "A350_cost":
-                        print("the total cost of operating A321 is the lowest, which is", A321_cost)
-                     if "A330_cost" < "A321_cost" and "A330_cost" < "A350_cost":
+                    
+                     if "A330_cost" < "A350_cost":
                         print("the total cost of operating A330 is the lowest, which is", A330_cost)
-                     if "A350_cost" < "A321_cost" and "A350_cost" < "A3330_cost":
+                     if "A350_cost" < "A330_cost":
                         print("the total cost of operating A350 is the lowest, which is", A350_cost)
                      break
                 if TC=="HIGH":
-                     A321_cost=int((FC*54*current.cost+HIGH[0]*current.cost+1800)*math.ceil(passengers/200))
-                     print("The cost of A321 is:",A321_cost)
+                     #Considering the maximum number of the flights, A321 does not meet the conditions.
                      A330_cost=int((FC*84*current.cost+HIGH[1]*current.cost+2000)*math.ceil(passengers/300))
                      print("The cost of A330 is:",A330_cost)
                      A350_cost=int((FC*90*current.cost+HIGH[2]*current.cost+2600)*math.ceil(passengers/350))
                      print("The cost of A350 is:",A350_cost)
-                     if "A321_cost" < "A330_cost" and "A321_cost" < "A350_cost":
-                        print("the total cost of operating A321 is the lowest, which is", A321_cost)
-                     if "A330_cost" < "A321_cost" and "A330_cost" < "A350_cost":
+                    
+                     if "A330_cost" < "A350_cost":
                         print("the total cost of operating A330 is the lowest, which is", A330_cost)
-                     if "A350_cost" < "A321_cost" and "A350_cost" < "A3330_cost":
+                     if "A350_cost" < "A330_cost":
                         print("the total cost of operating A350 is the lowest, which is", A350_cost)
                 
 
