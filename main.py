@@ -136,7 +136,7 @@ class AStarPlanner:
                         print("the total cost of operating A330 is the lowest, which is", A330_cost)
                      if "A350_cost" < "A321_cost" and "A350_cost" < "A3330_cost":
                         print("the total cost of operating A350 is the lowest, which is", A350_cost)
-                     break
+                     
                 if TC=="MEDIUM":
                      #Considering the maximum number of the flights, A321 does not meet the conditions.
                      A330_cost=int((FC*84*current.cost+MEDIUM[1]*current.cost+2000)*math.ceil(passengers/300))
@@ -148,7 +148,7 @@ class AStarPlanner:
                         print("the total cost of operating A330 is the lowest, which is", A330_cost)
                      if "A350_cost" < "A330_cost":
                         print("the total cost of operating A350 is the lowest, which is", A350_cost)
-                     break
+                     
                 if TC=="HIGH":
                      #Considering the maximum number of the flights, A321 does not meet the conditions.
                      A330_cost=int((FC*84*current.cost+HIGH[1]*current.cost+2000)*math.ceil(passengers/300))
@@ -160,7 +160,7 @@ class AStarPlanner:
                         print("the total cost of operating A330 is the lowest, which is", A330_cost)
                      if "A350_cost" < "A330_cost":
                         print("the total cost of operating A350 is the lowest, which is", A350_cost)
-                
+                     break
 
             # Remove the item from the open set
             del open_set[c_id]
