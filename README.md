@@ -25,13 +25,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  
-  </a>
-
-  <h3 align="center">g</h3>
+  <p align="center">
+  <img src="airbus.gif" alt="animated" width="600" height="350"/>
+</p>
+  <h2 align="center">AAE 2004 Group 7 Project</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    =========
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
