@@ -26,21 +26,15 @@
 <br />
 <div align="center">
   <p align="center">
-  <img src="airbus.gif" alt="animated" width="600" height="350"/>
+  <img src="PATH PLANNING PROJECT AAE 2004 GROUP 07.png" alt="animated" width="600" height="350"/>
 </p>
   <h2 align="center">AAE 2004 Group 7 Project</h3>
 
   <p align="center">
     =========
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
