@@ -147,8 +147,8 @@
 ### Discussion
 
 
-<!-- TASK 2.1: METHODOLOGY, RESULTS AND DISCUSSION -->
-## Task 2.1: Methodology, Results and Discussion
+<!-- TASK 2: METHODOLOGY, RESULTS AND DISCUSSION -->
+## Task 2: Design a new cost area that can reduce the cost of the route
 
 
 ### Methodology
@@ -157,15 +157,6 @@
 
 ### Discussion
 
-<!-- TASK 2.2: METHODOLOGY, RESULTS AND DISCUSSION -->
-## Task 2.2: Methodology, Results and Discussion
-
-
-### Methodology
-
-### Results
-
-### Discussion
 
 
 <!-- TASK 3: METHODOLOGY, RESULTS AND DISCUSSION -->
