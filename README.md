@@ -134,8 +134,6 @@ c: if it is already in the openList, check if this is a better path, using the g
 
 Repeat the above process until the target node is searched, completing the path search and ending the algorithm
 
-Reference List:
-https://blog.csdn.net/weixin_42301220/article/details/125140910
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
