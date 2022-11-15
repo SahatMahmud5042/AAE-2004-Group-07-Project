@@ -170,6 +170,8 @@ In the progress of solving Task 2, we know that the area of the cost reduction a
   And the result of the code is just like the plot:
   
   <img width="561" alt="image" src="https://user-images.githubusercontent.com/116137460/201842870-9db4b330-32f0-4e58-b991-2c5266585cd6.png">
+  <img width="576" alt="image" src="https://user-images.githubusercontent.com/116137460/201851986-77b165bb-b1df-4fa0-9400-74a2875f27dc.png">
+
 
 
 
