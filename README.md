@@ -121,7 +121,7 @@
 <!-- THEORY OF PATH PLANNING ALGORITHM -->
 ## Theory of Path Planning Algorithm
 
-  For path planning, we used the A* algorithm, which combines the advantages and disadvantages of the depth-first search algorithm and the breadth-first search algorithm. It constructs a cost function based on a heuristic function that takes into account both the cost of the distance of the new node from the initial point and the cost of the distance of the new node from the target point. A* algorithm requires the maintenance of two state tables, non-separately called the openList and the closeList . OpenList consists of nodes to be examined, and CloseList consists of nodes that have already been examined.
+ For path planning, we used the A* algorithm, which combines the advantages and disadvantages of the depth-first search algorithm and the breadth-first search algorithm. It constructs a cost function based on a heuristic function that takes into account both the cost of the distance of the new node from the initial point and the cost of the distance of the new node from the target point. A* algorithm requires the maintenance of two state tables, non-separately called the openList and the closeList . OpenList consists of nodes to be examined, and CloseList consists of nodes that have already been examined.
 
 The specific process： Firstly, we need to simplify the search area. Assuming that there is a barrier between the Start node and the Target node, and then, we rasterize the map and name the center of each square as a node, which reduces our search area to a 2-dimensional array. Each item of the array represents a grid, and its state is walkable and unwalkable. The path is found by working out which squares need to be walked through to get from the Start node to the Target node
  
@@ -133,7 +133,8 @@ b: if it is not in the openList, add it to the openList and set the current squa
 c: if it is already in the openList, check if this is a better path, using the g value as a reference; a smaller g value means this is a better path. If the g value is smaller, set the parent of that node to the current square and recalculate its g and h values.
 
 Repeat the above process until the target node is searched, completing the path search and ending the algorithm
-Reference
+
+Reference List:
 https://blog.csdn.net/weixin_42301220/article/details/125140910
 
 
@@ -172,8 +173,6 @@ In the progress of solving Task 2, we know that the area of the cost reduction a
   And the result of the code is just like the plot:
   
   <img width="561" alt="image" src="https://user-images.githubusercontent.com/116137460/201842870-9db4b330-32f0-4e58-b991-2c5266585cd6.png">
-  <img width="576" alt="image" src="https://user-images.githubusercontent.com/116137460/201850378-e2108353-5ceb-42e6-bc4b-9b2deb19b25a.png">
-
 
 
 
