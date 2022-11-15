@@ -224,7 +224,8 @@ Like the picture1 and picture 2 showed, we defined all the condition  and list e
 
 
 <!-- References -->
-https://blog.csdn.net/weixin_42301220/article/details/125140910
+<Introduction to the A* Algorithm>
+https://www.redblobgames.com/pathfinding/a-star/introduction.html
 
 ============
 ============
