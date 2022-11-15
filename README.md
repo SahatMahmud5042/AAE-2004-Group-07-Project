@@ -112,7 +112,10 @@
 <!-- BACKGROUND OF PATH PLANNING TO AVIATION ENGINNERING -->
 ## Background of Path Planning to Aviation Engineering
 
-=============
+Flying a piloted aircraft in a hazardous environment, such as battle zones or severe weather is a risky task. This puts the pilot’s life as well as the passengers’ lives at risk. This is where comes the idea of UAVs or Unmanned Aerial Vehicles, which can accomplish many missions at relatively low cost without putting human pilots in danger. But these UAVs need to avoid obstacles and pop-up threats as they fly through dynamic environments. Dealing with the unpredictability brought on by a changing environment and implementing autonomous decision-making within a set time window are two of the main difficulties in UAV path planning. To solve this problem, many researchers have come up with many path planning algorithms which allow the aircrafts move through dynamic paths. Some of these algorithms are - Voronoi Diagram, A* algorithm, D* algorithm, D* lite algorithm, Genetic algorithms etc. The goal of path planning is to create a real-time trajectory that avoids collisions and obstructions and leads to a target.  
+
+Safety is the main concern in the aviation industry. Engineers, scientists and aviation enthusiasts are working hard to make the air safe for everyone to travel. To make sure aircrafts don't fall into any trouble, path planning algorithms are important. Path planning decides an optimal or nearly optimal trajectory in terms of some cost function that reflects an aircraft's effectiveness such as total fuel use or total flight time. This way, an aircraft gets a safe and cost efficient path to follow to its destination. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
