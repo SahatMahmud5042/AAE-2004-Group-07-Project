@@ -123,7 +123,7 @@ Flying a piloted aircraft in a hazardous environment, such as battle zones or se
     <img src="DStar.gif" alt="animated" width="600" height="480"/>
   </p>
   <p align="center">
-    Fig 01: D* algorithm
+    Fig 02: D* algorithm
   </p>
   <p>
     
