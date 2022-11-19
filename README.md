@@ -173,7 +173,22 @@ Python is frequently used for creating websites and applications, automating rep
   </p>
   
 ### Github
-
+At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. In simple words, GitHub is the social media for coders all over the world. It is a platform where people can collaborate on a programming based project and publish codes publicly so that others can use it as there need. As our project was a group based project, we needed to collaborate with each other. This is why we used github. Using GitHub we have been able to contribute on the Source Code, and publish the code time-to-time.   
+  <p align="center">
+  <img src="github.gif" alt="animated" width=600 height=600/>
+  </p>
+To understand GitHub, we need to get familiar with two connected principles:
+ <p>
+   <ul>
+     <li>Version Control</li>
+     Version control facilitates the management and tracking of coding changes in software projects. Version management is crucial when a software project expands. Version Control lets developers safely work through branching and merging. A developer replicates some of the source code using branching (called the repository). The developer can then safely modify that section of the code without affecting the project's overall success. The developer can then "Merge" that code back into the primary source code to make it official after getting their particular portion of the code to perform properly.
+     <li>Git</li>
+     Git is a specific open-source version control system created by Linus Torvalds in 2005. Git is a distributed version control system, which implies that every developer's computer has access to the whole codebase and history, making branching and merging simple. 
+  </ul>
+  </p>
+  <p>
+  Since anyone can join and host a public code repository there at no cost, open-source projects are particularly fond of GitHub.
+  </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
