@@ -170,14 +170,17 @@ Repeat the above process until the target node is searched, completing the path 
 
 
 <!-- TASK 1: METHODOLOGY, RESULTS AND DISCUSSION -->
-## Task 1: Methodology, Results and Discussion
+## Task 1: Find an appropriate aircraft model that achieve minimum cost for each scenario 
 
 
-### Methodology
+In task1, we aim to find an appropriate aircraft model that achieves the minimum cost for the three different scenarios in our obstacle set. It can be separated into two steps. In the first step, we need first to set up the obstacles, which include two cost intensive areas (20% and 40% additional flight time for cost intensive areas for Time and Fuel) and three walls. And then, we use A* path planning algorithm to calculate the time traveled to find the fast path and the minimum travel time. The pictures below are the results.
+![2290ad80dfb492d6ec07f83922133d5](https://user-images.githubusercontent.com/116156066/202837081-9c0410ab-dae7-49db-947b-1cd45dcbfee3.jpg)
 
-### Results
-
-### Discussion
+Then we use the if statement to compare the cost of three different aircraft types to find the minimum cost for each scenario while satisfying passenger needs.The pictures below show the codes in detail.
+![5161a6638aea0362d13840ee6e59e71](https://user-images.githubusercontent.com/116156066/202837931-97f0d01f-ac8a-4f20-b407-ce70b74c3541.jpg)
+![671591dbc8b29c97447bb34700adc18](https://user-images.githubusercontent.com/116156066/202837936-d15c269a-c28f-4437-9d9d-4aea887530ca.jpg)
+The picture below shows the results of scenario 1.
+![d9cc406243e3f533c531c163d21cf82](https://user-images.githubusercontent.com/116156066/202837994-def83106-b591-4042-87e9-6c89703c6c68.jpg)
 
 
 <!-- TASK 2: METHODOLOGY, RESULTS AND DISCUSSION -->
