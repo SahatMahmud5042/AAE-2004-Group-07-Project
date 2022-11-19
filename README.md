@@ -159,36 +159,13 @@ Repeat the above process until the target node is searched, completing the path 
 <!-- INTRODUCTION OF THE ENGINEERING TOOLS -->
 ## Introduction of the Engineering Tools
 
-For this project we have used two major tools for programming. One is Python, another one is GitHub.
-
+=======
 ### Python
-Python is a popular computer programming language used to create software and websites, automate processes, and analyze data. Python is a general-purpose language, which means it may be used to make many various types of applications and isn't tailored for any particular issues. Its adaptability and beginner-friendliness have elevated it to the top of the list of programming languages in use today. 
-<p align="center">
-  <img src="python.gif" alt="animated" width=600 height=400/>
-  </p>
-Python is frequently used for creating websites and applications, automating repetitive tasks, and analyzing and displaying data. Python has been used by many non-programmers, including accountants and scientists, for a variety of routine activities including managing finances since it is very simple to learn. Due to its "Easy to Learn" nature, we have used this language for our project as most of us did not have any prior programming knowledge. For modifying the source code which was provided to us for completing our tasks, we used Visual Studio Code or VSCode. Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. VSCode's user friendly UI helped us to work on our project without facing any technical problem. Features like debugging assistance, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git made us choose VSCode as our code editor.
 
-<p align="center">
-  <img src="vscode.gif" alt="animated" width=600 height=400/>
-  </p>
-  
+
 ### Github
-At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. In simple words, GitHub is the social media for coders all over the world. It is a platform where people can collaborate on a programming based project and publish codes publicly so that others can use it as there need. As our project was a group based project, we needed to collaborate with each other. This is why we used github. Using GitHub we have been able to contribute on the Source Code, and publish the code time-to-time.   
-  <p align="center">
-  <img src="github.gif" alt="animated" width=600 height=600/>
-  </p>
-To understand GitHub, we need to get familiar with two connected principles:
- <p>
-   <ul>
-     <li>Version Control</li>
-     Version control facilitates the management and tracking of coding changes in software projects. Version management is crucial when a software project expands. Version Control lets developers safely work through branching and merging. A developer replicates some of the source code using branching (called the repository). The developer can then safely modify that section of the code without affecting the project's overall success. The developer can then "Merge" that code back into the primary source code to make it official after getting their particular portion of the code to perform properly.
-     <li>Git</li>
-     Git is a specific open-source version control system created by Linus Torvalds in 2005. Git is a distributed version control system, which implies that every developer's computer has access to the whole codebase and history, making branching and merging simple. 
-  </ul>
-  </p>
-  <p>
-  Since anyone can join and host a public code repository there at no cost, open-source projects are particularly fond of GitHub.
-  </p>
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -254,7 +231,8 @@ Like the picture1 and picture 2 showed, we defined all the condition  and list e
 ### Yajiao Liu
 This project has meant a lot to me because this could be considered the turning point from my introduction to programming to writing programs. In our group, I was mainly responsible for coding three tasks and gained much from them. It was the first time I realized the importance of rigorous thinking and adjusting logical thinking. For instance, in step 2 of task 1, I started to forget the limit on the number of flights to add. After solving this, I tried to use a while True loop but found that the path was not output. Finally, I selected a multi-conditional judgment using IF. Throughout the writing process, write down specific ideas, translate them into the programming language, solve one problem after another that is encountered, complete the task requirements, and then recheck the code， which makes me feel the charm of code. However, although my code can meet the basic needs of the task, its quality still needs to be improved. The issue of code quality improvement is also something I want to focus on in the future. In a word, I really enjoy the process of discussing and solving problems with my group members. Meanwhile, I am also grateful to this project for breaking my fear of programming and making me more confident to express my views to everyone.
 ### Miao Kaili
-
+  After five weeks of work, our team finally finished the project. In this process, I was mainly responsible for the research and report of Task 3. I think Task three is less complicated than task one and Task two. The task was for us to design a new type of aircraft that, given the conditions, would maximize the benefits of the airline. At the very beginning, my solution to this task was to design an equation with code, the dependent variable was the total cost, the independent variable was the passenger capacity of the aircraft, and then to find the minimum value of the cost. Then I started to write code based on this idea, but in the first run of the code, because my writing ability is not strong, the results always don't show up. Only with the help of other team members did we find the result.
+In this team project, I not only learned more professional academic knowledge, but also learned how to communicate and cooperate better with team members.
 ### Ziyang Liu
   The group project was successfully completed with the efforts of our team members. In working on this project, I was mainly responsible for the code research and reporting for Task 2. During the initial solution of Task 2, I was inspired by the principle of copying machine and wanted to make a defined line to scan from bottom to top for different positions of calculation. However, due to my limited ability to write code, I asked the rest of the group for help. The other members were quick to discuss this with me and put a lot of effort into solving the puzzle. However, the progress of the project was slowed down by the time spent on the code for Task 2. For the sake of the project and the rest of the group, I chose a less rigorous but achievable approach with the agreement of the other members. Although I did not perform as well as expected in this group task, I still acquired a lot of thinking and knowledge about writing code. At the same time, I felt the amazing efficiency and better solutions that come from working together with the group members, and I grew to enjoy the feeling of getting immediate feedback on the ideas I proposed. All in all, this AAE group project has benefited me a lot both in terms of professional knowledge and cooperative interaction.
 
