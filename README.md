@@ -159,12 +159,20 @@ Repeat the above process until the target node is searched, completing the path 
 <!-- INTRODUCTION OF THE ENGINEERING TOOLS -->
 ## Introduction of the Engineering Tools
 
-=======
+For this project we have used two major tools for programming. One is Python, another one is github.
+
 ### Python
+Python is a popular computer programming language used to create software and websites, automate processes, and analyze data. Python is a general-purpose language, which means it may be used to make many various types of applications and isn't tailored for any particular issues. Its adaptability and beginner-friendliness have elevated it to the top of the list of programming languages in use today. 
+<p align="center">
+  <img src="python.gif" alt="animated" width=600 height=400/>
+  </p>
+Python is frequently used for creating websites and applications, automating repetitive tasks, and analyzing and displaying data. Python has been used by many non-programmers, including accountants and scientists, for a variety of routine activities including managing finances since it is very simple to learn. Due to its "Easy to Learn" nature, we have used this language for our project as most of us did not have any prior programming knowledge. For modifying the source code which was provided to us for completing our tasks, we used Visual Studio Code or VSCode. Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. VSCode's user friendly UI helped us to work on our project without facing any technical problem. Features like debugging assistance, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git made us choose VSCode as our code editor.
 
-
+<p align="center">
+  <img src="vscode.gif" alt="animated" width=600 height=400/>
+  </p>
+  
 ### Github
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
