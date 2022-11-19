@@ -159,7 +159,7 @@ Repeat the above process until the target node is searched, completing the path 
 <!-- INTRODUCTION OF THE ENGINEERING TOOLS -->
 ## Introduction of the Engineering Tools
 
-For this project we have used two major tools for programming. One is Python, another one is github.
+For this project we have used two major tools for programming. One is Python, another one is GitHub.
 
 ### Python
 Python is a popular computer programming language used to create software and websites, automate processes, and analyze data. Python is a general-purpose language, which means it may be used to make many various types of applications and isn't tailored for any particular issues. Its adaptability and beginner-friendliness have elevated it to the top of the list of programming languages in use today. 
