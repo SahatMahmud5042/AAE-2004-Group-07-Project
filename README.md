@@ -271,8 +271,12 @@ It was a pleasure to work with you all on this group project. I was in charge of
 
 
 <!-- References -->
-<Introduction to the A* Algorithm>
+1.<Introduction to the A* Algorithm>
 https://www.redblobgames.com/pathfinding/a-star/introduction.html
+2.  A* Pathfinding for Beginners
+https://www.gamedev.net/reference/articles/article2003.asp
+3. https://blog.csdn.net/hitwhylz/article/details/23089415
+
 
 ============
 ============
