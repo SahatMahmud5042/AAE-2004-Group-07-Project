@@ -267,17 +267,37 @@ In this team project, I not only learned more professional academic knowledge, b
 
 ### Ma Fanshu
 It was a pleasure to work with you all on this group project. I was in charge of coding the first step of Task 1 and writing the report for Task 1 in our group. The first step only required setting up obstacles, including cost-intensive areas, and then modifying the program to calculate the time traveled to find the fastest path. Because we had sample cods and could use the framework directly, which means we only needed to modify some data. Therefore, I think the first step was relatively easy and I finished it quickly, just before the end of class in the second week. I have learned a lot from this project, not only learning more programming skills but also working with others and becoming friends with other team members as a result. For me, who had never been involved in programming before, I thought this was an almost impossible task at first, but in the end, we completed it successfully through our hard work. The atmosphere within our group was also particularly significant, we all helped each other out all the time and did not just ignore it because someone else was in charge of this part. Overall, it was great to work with everyone this time.
-### abcd
+### Ma Hauyi
 
 
-<!-- References -->
-1.<Introduction to the A* Algorithm>
-https://www.redblobgames.com/pathfinding/a-star/introduction.html
-2.  A* Pathfinding for Beginners
-https://www.gamedev.net/reference/articles/article2003.asp
-3. https://blog.csdn.net/hitwhylz/article/details/23089415
+<!-- REFERENCES -->
+## References
 
+<ol>
+ <li>Introduction to the A* Algorithm</li>
+ https://www.redblobgames.com/pathfinding/a-star/introduction.html
+ <li>A* Pathfinding for Beginners</li>
+ https://www.gamedev.net/reference/articles/article2003.asp
+ <li>A Star Algorithm in Detail</li>
+ https://blog.csdn.net/hitwhylz/article/details/23089415
+</ol>
 
-============
-============
+<!-- Contributors -->
+## Contributors
+<ol>
+<li>Md Sahat Mahmud</li>
+GitHub: https://github.com/SahatMahmud5042
+<li>Muhammad Inamul Haq</li>
+GitHub: https://github.com/Immiz619
+<li>Yajiao Liu</li>
+GitHub: https://github.com/yajiao2004
+<li>Miao Kaili</li>
+GitHub: https://github.com/kaili2004
+<li>Ziyang Liu</li>
+GitHub: https://github.com/SahatMahmud5042
+<li>Ma Fanshu</li>
+GitHub: https://github.com/ma2333
+<li>Ma Hauyi</li>
+</ol>
+
 
