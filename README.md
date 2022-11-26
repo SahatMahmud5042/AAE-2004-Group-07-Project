@@ -32,7 +32,7 @@
   <h2 align="center">AAE 2004 Group 7 Project</h3>
 
   <p align="center">
-    =========
+    Presentation Link: 
     <br />
     <br />
     <br />
@@ -59,36 +59,13 @@
       </ol>
     </li>
     <li>
-      <a href="#task-1-methodology-results-and-discussion">Task 1: Methodology, Results and Discussion</a> 
-       <ol type="a">
-         <li><a href="#methodology">Methodology</a></li>
-         <li><a href="#results">Results</a></li>
-         <li><a href="#discussion">Discussion</a></li>
-        </ol>
+      <a href="#task-1-find-an-appropriate-aircraft-model-that-achieve-minimum-cost-for-each-scenario">Task 1: Find an appropriate aircraft model that achieve minimum cost for each scenario</a> 
        </li>
      <li>
-      <a href="#task-21-methodology-results-and-discussion">Task 2.1: Methodology, Results and Discussion</a> 
-       <ol type="a">
-         <li><a href="#methodology">Methodology</a></li>
-         <li><a href="#results">Results</a></li>
-         <li><a href="#discussion">Discussion</a></li>
-        </ol>
+      <a href="#task-2-design-a-new-cost-area-that-can-reduce-the-cost-of-the-route">Task 2: Design a new cost area that can reduce the cost of the route</a> 
        </li>
     <li>
-     <a href="#task-22-methodology-results-and-discussion">Task 2.2: Methodology, Results and Discussion</a> 
-       <ol type="a">
-         <li><a href="#methodology">Methodology</a></li>
-         <li><a href="#results">Results</a></li>
-         <li><a href="#discussion">Discussion</a></li>
-        </ol>
-       </li>
-    <li>
-     <a href="#task-3-methodology-results-and-discussion">Task 3: Methodology, Results and Discussion</a> 
-       <ol type="a">
-         <li><a href="#methodology">Methodology</a></li>
-         <li><a href="#results">Results</a></li>
-         <li><a href="#discussion">Discussion</a></li>
-        </ol>
+     <a href="#task-3-design-a-new-aircraft-model-within-the-constrains-to-achieve-minimum-cost">Task 3: Design a new aircraft model within the constrains to achieve minimum cost</a> 
        </li>
     <li>
       <a href="">Reflective Essay</a>
@@ -96,13 +73,16 @@
          <li><a href="#sahat-mahmud">Sahat Mahmud</a>
          <li><a href="#muhammad-inamul-haq">Muhammad Inamul Haq</a>
          <li><a href="#yajiao-liu">Yajiao Liu</a>
-         <li><a href="#ma-fandhu">Ma Fandhu</a>
+         <li><a href="#ma-fanshu">Ma Fandhu</a>
          <li><a href="#miao-kaili">Miao Kaili</a>
          <li><a href="#ziyang-liu">Ziyang Liu</a>
-         <li><a href="#abcd">abcd</a>
+         <li><a href="#ma-hauyi">Ma Hauyi</a>
        </ol>
       <li>
          <a href="#references">References<a>
+       </li>
+       <li>
+         <a href="#contributors">Contributors<a>
        </li>
   </ol>
 </details>
@@ -139,18 +119,17 @@ Safety is the main concern in the aviation industry. Engineers, scientists and a
 <!-- THEORY OF PATH PLANNING ALGORITHM -->
 ## Theory of Path Planning Algorithm
 
- For path planning, we used the A* algorithm, which combines the advantages and disadvantages of the depth-first search algorithm and the breadth-first search algorithm. It constructs a cost function based on a heuristic function that takes into account both the cost of the distance of the new node from the initial point and the cost of the distance of the new node from the target point. A* algorithm requires the maintenance of two state tables, non-separately called the openList and the closeList . OpenList consists of nodes to be examined, and CloseList consists of nodes that have already been examined.
+For path planning, we used the A* algorithm, which combines the advantages and disadvantages of the depth-first search algorithm and the breadth-first search algorithm. It constructs a cost function based on a heuristic function that takes into account both the cost of the distance of the new node from the initial point and the cost of the distance of the new node from the target point. A* algorithm requires the maintenance of two state tables, non-separately called the openList and the closeList . OpenList consists of nodes to be examined, and CloseList consists of nodes that have already been examined.
 
-The specific process： Firstly, we need to simplify the search area. Assuming that there is a barrier between the Start node and the Target node, and then, we rasterize the map and name the center of each square as a node, which reduces our search area to a 2-dimensional array. Each item of the array represents a grid, and its state is walkable and unwalkable. The path is found by working out which squares need to be walked through to get from the Start node to the Target node
- 
-Then we start searching to find the shortest path. In the beginning, we add the starting point to the openList. And from the starting point, check its neighboring squares and then expand in all directions until the goal is found. Afterward, we select the node with the lowest cost of movement among the nodes adjacent to the Start node and move it to the closeList based on the movement cost evaluation function f(n)=g(n)+h(n) (f(n) is the estimated cost of moving from the initial state to the target state via state n, g(n) is the actual cost of moving from the initial state to state n in the state space, and h(n) is the estimated cost of the best path from state n to the target state). 
+The specific process： Firstly, we need to simplify the search area. Assuming that there is a barrier between the Start node and the Target node, and then, we rasterize the map and name the center of each square as a node, which reduces our search area to a 2-dimensional array. Each item of the array represents a grid, and its state is walkable and unwalkable. The path is found by working out which squares need to be walked through to get from the Start node to the Target node. Then we start searching to find the shortest path. In the beginning, we add the starting point to the openList. And from the starting point, check its neighboring squares and then expand in all directions until the goal is found. Afterward, we select the node with the lowest cost of movement among the nodes adjacent to the Start node and move it to the closeList based on the movement cost evaluation function f(n) = g(n) + h(n) (f(n) is the estimated cost of moving from the initial state to the target state via state n, g(n) is the actual cost of moving from the initial state to state n in the state space, and h(n) is the estimated cost of the best path from state n to the target state). 
 
 For the 8 adjacent squares of the current square：
-a: if it is unreachable or it is in the closeList, ignore it.
-b: if it is not in the openList, add it to the openList and set the current square as its parent, recording the f, g , and h values for that square.
-c: if it is already in the openList, check if this is a better path, using the g value as a reference; a smaller g value means this is a better path. If the g value is smaller, set the parent of that node to the current square and recalculate its g and h values.
-
-Repeat the above process until the target node is searched, completing the path search and ending the algorithm
+<ol type = "a">
+<li>if it is unreachable or it is in the closeList, ignore it.</li>
+<li>if it is not in the openList, add it to the openList and set the current square as its parent, recording the f, g , and h values for that square.</li>
+<li>if it is already in the openList, check if this is a better path, using the g value as a reference; a smaller g value means this is a better path. If the g value is smaller, set the parent of that node to the current square and recalculate its g and h values.</li>
+</ol>
+Repeat the above process until the target node is found, and then it will complete the path search and end the algorithm.
 
 
 
@@ -234,7 +213,7 @@ In the progress of solving Task 2, we know that the area of the cost reduction a
 
 
 <!-- TASK 3: METHODOLOGY, RESULTS AND DISCUSSION -->
-## Task 3: Design a new aircraft model within the constrains to achieve minimum cost for your group challenge
+## Task 3: Design a new aircraft model within the constrains to achieve minimum cost
 For task3, we need to come up with a suitable aircraft based on the given conditions, such as the number of passengers, fuel bills, fixed costs, etc. At the very beginning, we think it is like a maths problem and our idea to solve this task is divided into two situations, one is when the passenger capacity of the aircraft is less than 300, and the other is when the passenger capacity of the aircraft is more than 300. We can write an equation in code based on given conditions to know the lowest cost and the most suitable aircraft capacity. But when we tried to do this, we found that the number of passengers we calculated was not an integer. After we thought about it for a while, we realized that when we were programming, we didn't define the unknowns enough, which led to inaccurate results. After modifying the code, the program ran correctly and came to a conclusion.
   ![752e8669f0e086ac9c495ed64db5cfe](https://user-images.githubusercontent.com/116135818/201843643-adcf8a6f-50ca-489c-8d97-ad163bdb0699.jpg)
 
