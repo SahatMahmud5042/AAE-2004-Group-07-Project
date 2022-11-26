@@ -199,7 +199,7 @@ To understand GitHub, we need to get familiar with two connected principles:
 In task1, we aim to find an appropriate aircraft model that achieves the minimum cost for the three different scenarios in our obstacle set. It can be separated into two steps. In the first step, we need first to set up the obstacles, which include two cost intensive areas (20% and 40% additional flight time for cost intensive areas for Time and Fuel) and three walls. And then, we use A* path planning algorithm to calculate the time traveled to find the fast path and the minimum travel time. The pictures below are the results.
 ![2290ad80dfb492d6ec07f83922133d5](https://user-images.githubusercontent.com/116156066/202837081-9c0410ab-dae7-49db-947b-1cd45dcbfee3.jpg)
 
-Then we use the Then we use the multi-conditional judgment of IF statement to compare the cost of three different aircraft types to find the minimum cost for each scenario while satisfying passenger needs.The pictures below show the codes in detail.
+Then we use the multi-conditional judgment of IF statement to compare the cost of three different aircraft types to find the minimum cost for each scenario while satisfying passenger needs.The pictures below show the codes in detail.
 ![5161a6638aea0362d13840ee6e59e71](https://user-images.githubusercontent.com/116156066/202837931-97f0d01f-ac8a-4f20-b407-ce70b74c3541.jpg)
 ![671591dbc8b29c97447bb34700adc18](https://user-images.githubusercontent.com/116156066/202837936-d15c269a-c28f-4437-9d9d-4aea887530ca.jpg)
 The picture below shows the results of scenario 1.
@@ -249,14 +249,14 @@ Like the picture1 and picture 2 showed, we defined all the condition  and list e
 ## Reflective Essay
 
 ### Sahat Mahmud
-The GitHub group project of AAE 2004 felt like the most useful and effective learning experience so far for me. The way it was taught set it apart from other courses because it mostly required independent learning. And in my opinion, the best approach to learn something new is learning it on our own. It helps us identify our areas of weakness and makes learning simple and effective. With the consent of other group members, I volunteered to be the leader of my group. I was mainly responsible for plotting the area and obstacles with matplotlib library, Coding and organising the GitHub README file,  and managing the GitHub repository. While taking care of these responsibilities, I obviously faced some difficulties and got stuck at some point. But instead of giving up on my tasks and asking help from others, I tried to figure out the solutions on my own.  For example, when I was trying to code the area and obstacles, plotting straight lines didn’t seem difficult to me. But plotting tilted lines felt a bit confusing and difficult at first. Then, I brainstormed for some time and realised that the tilted lines can be drawn if I somehow apply the straight line formula ( y = mx + c ) inside the plotting loop. Then I figured out the constants ( c ) from the coordinates for our obstacle lines and calculated the slope for them and applied it inside the loop. This task forced me to think outside the box and made me see the bigger picture. 
+The GitHub group project of AAE 2004 felt like the most useful and effective learning experience so far for me. The way it was taught set it apart from other courses because it mostly required independent learning. And in my opinion, the best approach to learn something new is learning it on our own. It helps us identify our areas of weakness and makes learning simple and effective. With the consent of other group members, I volunteered to be the leader of my group. I was mainly responsible for plotting the area and obstacles with matplotlib library, Coding and organising the GitHub README file,  and managing the GitHub repository. While taking care of these responsibilities, I obviously faced some difficulties and got stuck at some point. But instead of giving up on my tasks and asking help from others, I tried to figure out the solutions on my own.  For example, when I was trying to code the area and obstacles, plotting straight lines didn’t seem difficult to me. But plotting tilted lines felt a bit confusing and difficult at first. Then, I brainstormed for some time and realised that the tilted lines can be drawn if I somehow apply the straight line formula ( y = mx + c ) inside the plotting loop. Then I figured out the constants ( c ) from the coordinates for our obstacle lines and calculated the slope (m) for them and applied it inside the loop. This task forced me to think outside the box and made me see the bigger picture. 
 
 GitHub was not a new thing for me. In my high school days, I learned web designing and used GitHub to store my website script. However, this is the first time I did collaboration on a project in GitHub. Through this project, I got to learn about many unique features of GitHub such as - Merging code, Pull request, Creating new branch etc. As our career might heavily depend on coding in future,  learning these features will definitely give me an edge from others. 
 
 So to conclude, this project helped me to grow my skills of team collaboration and leadership and taught me the importance of thinking outside the box. 
 
 ### Muhammad Inamul Haq
-
+Time spent in bringing this project together, I mean countless hours of hard work and dedication. Burning the midnight oil as they say really turned out to be fruitful at the end. I am responsible for editing and producing power point slides. I do not have much to do with the programming part of the project, but I understood the task at hand. It felt great to get together and work on this project. It helped me not only achieve my academic goal but created new friendships and a comfortable zone where I can take sigh of hope and have a moment of Zen. People whom I never knew before are now who I chat with as casual friends. Beside this project, I have learnt more valuable things that will have long-term effect in my career which is confidence, friendship and learning to take the initiative. There were times when we were at sea, but we pulled through and made to the end. Just being there for the team and cheering on, I believe led to success of this group.
 ### Yajiao Liu
 This project has meant a lot to me because this could be considered the turning point from my introduction to programming to writing programs. In our group, I was mainly responsible for coding three tasks and gained much from them. It was the first time I realized the importance of rigorous thinking and adjusting logical thinking. For instance, in step 2 of task 1, I started to forget the limit on the number of flights to add. After solving this, I tried to use a while True loop but found that the path was not output. Finally, I selected a multi-conditional judgment using IF. Throughout the writing process, write down specific ideas, translate them into the programming language, solve one problem after another that is encountered, complete the task requirements, and then recheck the code， which makes me feel the charm of code. However, although my code can meet the basic needs of the task, its quality still needs to be improved. The issue of code quality improvement is also something I want to focus on in the future. In a word, I really enjoy the process of discussing and solving problems with my group members. Meanwhile, I am also grateful to this project for breaking my fear of programming and making me more confident to express my views to everyone.
 ### Miao Kaili
@@ -266,14 +266,38 @@ In this team project, I not only learned more professional academic knowledge, b
   The group project was successfully completed with the efforts of our team members. In working on this project, I was mainly responsible for the code research and reporting for Task 2. During the initial solution of Task 2, I was inspired by the principle of copying machine and wanted to make a defined line to scan from bottom to top for different positions of calculation. However, due to my limited ability to write code, I asked the rest of the group for help. The other members were quick to discuss this with me and put a lot of effort into solving the puzzle. However, the progress of the project was slowed down by the time spent on the code for Task 2. For the sake of the project and the rest of the group, I chose a less rigorous but achievable approach with the agreement of the other members. Although I did not perform as well as expected in this group task, I still acquired a lot of thinking and knowledge about writing code. At the same time, I felt the amazing efficiency and better solutions that come from working together with the group members, and I grew to enjoy the feeling of getting immediate feedback on the ideas I proposed. All in all, this AAE group project has benefited me a lot both in terms of professional knowledge and cooperative interaction.
 
 ### Ma Fanshu
+It was a pleasure to work with you all on this group project. I was in charge of coding the first step of Task 1 and writing the report for Task 1 in our group. The first step only required setting up obstacles, including cost-intensive areas, and then modifying the program to calculate the time traveled to find the fastest path. Because we had sample cods and could use the framework directly, which means we only needed to modify some data. Therefore, I think the first step was relatively easy and I finished it quickly, just before the end of class in the second week. I have learned a lot from this project, not only learning more programming skills but also working with others and becoming friends with other team members as a result. For me, who had never been involved in programming before, I thought this was an almost impossible task at first, but in the end, we completed it successfully through our hard work. The atmosphere within our group was also particularly significant, we all helped each other out all the time and did not just ignore it because someone else was in charge of this part. Overall, it was great to work with everyone this time.
+### Ma Hauyi
 
-### abcd
 
+<!-- REFERENCES -->
+## References
 
-<!-- References -->
-<Introduction to the A* Algorithm>
-https://www.redblobgames.com/pathfinding/a-star/introduction.html
+<ol>
+ <li>Introduction to the A* Algorithm</li>
+ https://www.redblobgames.com/pathfinding/a-star/introduction.html
+ <li>A* Pathfinding for Beginners</li>
+ https://www.gamedev.net/reference/articles/article2003.asp
+ <li>A Star Algorithm in Detail</li>
+ https://blog.csdn.net/hitwhylz/article/details/23089415
+</ol>
 
-============
-============
+<!-- Contributors -->
+## Contributors
+<ol>
+<li>Md Sahat Mahmud</li>
+GitHub: https://github.com/SahatMahmud5042
+<li>Muhammad Inamul Haq</li>
+GitHub: https://github.com/Immiz619
+<li>Yajiao Liu</li>
+GitHub: https://github.com/yajiao2004
+<li>Miao Kaili</li>
+GitHub: https://github.com/kaili2004
+<li>Ziyang Liu</li>
+GitHub: https://github.com/SahatMahmud5042
+<li>Ma Fanshu</li>
+GitHub: https://github.com/ma2333
+<li>Ma Hauyi</li>
+</ol>
+
 
