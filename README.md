@@ -73,7 +73,7 @@
          <li><a href="#sahat-mahmud">Sahat Mahmud</a>
          <li><a href="#muhammad-inamul-haq">Muhammad Inamul Haq</a>
          <li><a href="#yajiao-liu">Yajiao Liu</a>
-         <li><a href="#ma-fanshu">Ma Fandhu</a>
+         <li><a href="#ma-fanshu">Ma Fanshu</a>
          <li><a href="#miao-kaili">Miao Kaili</a>
          <li><a href="#ziyang-liu">Ziyang Liu</a>
          <li><a href="#ma-hauyi">Ma Hauyi</a>
