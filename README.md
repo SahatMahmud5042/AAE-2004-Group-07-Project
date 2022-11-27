@@ -201,16 +201,16 @@ The picture below shows the results of scenario 1.
 In the progress of solving Task 2, we know that the area of the cost reduction area is fixed according to the given conditions. So if we want to minimize the final navigation cost, the goal we need to achieve is to make the shipping route through the selected area as long as possible. In choosing this cost reduction area, our initial idea is to first set up a block with constant horizontal coordinates and shifting vertical coordinates. Then the vertical coordinates of the region are made to move from the lowest to the highest point at a unit rate of one frame at a time, and the length of the route through the selected region in Task 1 is calculated. At the same time, these length data and the corresponding index of the longitudinal coordinates are stored in a list. When the cycle is completed, the largest data in the list and its corresponding vertical coordinates are found. At this point, we can get the location of the best region. However, since it was not possible to define the lengths of the regions through which the routes in Task 1 passed, we were not able to compare the lengths through which the routes passed in all the location regions according to the initial idea. In order not to interfere with the project, we had to fuzzify the selection of regions in order to find a value approximately close to the correct result.The specific code is shown in the figure below.
   
   <p align = "middle">
-    <img width="187" alt="image" src="https://user-images.githubusercontent.com/116137460/201855509-0e86ca1d-3d1b-41f3-829e-01c808d5c0cf.png">
+    <img width="500" alt="image" src="https://user-images.githubusercontent.com/116137460/201855509-0e86ca1d-3d1b-41f3-829e-01c808d5c0cf.png">
   </p>
   <p align = "middle">
-    <img width="640" alt="image" src="https://user-images.githubusercontent.com/116137460/201855571-c80ea290-85f1-4118-8df9-a3106867b642.png">
+    <img width="500" alt="image" src="https://user-images.githubusercontent.com/116137460/201855571-c80ea290-85f1-4118-8df9-a3106867b642.png">
   </p>
   <p align = "middle">
-    <img width="372" alt="image" src="https://user-images.githubusercontent.com/116137460/201855688-b2ed62f0-f637-4953-9b38-4a8ac94a8141.png">
+    <img width="500" alt="image" src="https://user-images.githubusercontent.com/116137460/201855688-b2ed62f0-f637-4953-9b38-4a8ac94a8141.png">
   </p>
   <p align = "middle">
-    <img width="565" alt="image" src="https://user-images.githubusercontent.com/116137460/201855738-5a558d74-0e9a-4e2a-99cd-6080aceefbc3.png">
+    <img width="500" alt="image" src="https://user-images.githubusercontent.com/116137460/201855738-5a558d74-0e9a-4e2a-99cd-6080aceefbc3.png">
   </p>
 
 
@@ -233,13 +233,13 @@ In the progress of solving Task 2, we know that the area of the cost reduction a
 For task3, we need to come up with a suitable aircraft based on the given conditions, such as the number of passengers, fuel bills, fixed costs, etc. At the very beginning, we think it is like a maths problem and our idea to solve this task is divided into two situations, one is when the passenger capacity of the aircraft is less than 300, and the other is when the passenger capacity of the aircraft is more than 300. We can write an equation in code based on given conditions to know the lowest cost and the most suitable aircraft capacity. But when we tried to do this, we found that the number of passengers we calculated was not an integer. After we thought about it for a while, we realized that when we were programming, we didn't define the unknowns enough, which led to inaccurate results. After modifying the code, the program ran correctly and came to a conclusion.
   
 <p align = "middle">
-    <img src="https://user-images.githubusercontent.com/116135818/201843643-adcf8a6f-50ca-489c-8d97-ad163bdb0699.jpg" width = 800>
+    <img src="https://user-images.githubusercontent.com/116135818/201843643-adcf8a6f-50ca-489c-8d97-ad163bdb0699.jpg" width = 600>
   </p>
 <p align = "middle">
-    <img src="https://user-images.githubusercontent.com/116135818/201835915-d3538100-da8c-40a2-9f61-857d1d828d9a.png" width = 800>
+    <img src="https://user-images.githubusercontent.com/116135818/201835915-d3538100-da8c-40a2-9f61-857d1d828d9a.png" width = 600>
   </p>
   <p align = "middle">
-    <img src="https://user-images.githubusercontent.com/116135818/201843862-d5427733-a0e5-4fe2-bef1-c653c1cb9084.png" width = 800>
+    <img src="https://user-images.githubusercontent.com/116135818/201843862-d5427733-a0e5-4fe2-bef1-c653c1cb9084.png" width = 600>
   </p>
 
 Like the picture1 and picture 2 showed, we defined all the condition  and list equation. Then we can find the minimum cost in the list through code. What's more, we add a code "PC%50==0" to make the final answer is a integer. And the third picture showed our final result. 
@@ -300,10 +300,11 @@ GitHub: https://github.com/yajiao2004
 <li>Miao Kaili</li>
 GitHub: https://github.com/kaili2004
 <li>Ziyang Liu</li>
-GitHub: https://github.com/SahatMahmud5042
+GitHub: https://github.com/ziyang2004
 <li>Ma Fanshu</li>
 GitHub: https://github.com/ma2333
 <li>Ma Hauyi</li>
+GitHub: https://github.com/yhm03
 </ol>
 
 
