@@ -176,13 +176,22 @@ To understand GitHub, we need to get familiar with two connected principles:
 
 
 In task1, we aim to find an appropriate aircraft model that achieves the minimum cost for the three different scenarios in our obstacle set. It can be separated into two steps. In the first step, we need first to set up the obstacles, which include two cost intensive areas (20% and 40% additional flight time for cost intensive areas for Time and Fuel) and three walls. And then, we use A* path planning algorithm to calculate the time traveled to find the fast path and the minimum travel time. The pictures below are the results.
-![2290ad80dfb492d6ec07f83922133d5](https://user-images.githubusercontent.com/116156066/202837081-9c0410ab-dae7-49db-947b-1cd45dcbfee3.jpg)
+<p align = "middle">
+  <img src = "https://user-images.githubusercontent.com/116156066/202837081-9c0410ab-dae7-49db-947b-1cd45dcbfee3.jpg" width = 600>
+  </p>
 
 Then we use the multi-conditional judgment of IF statement to compare the cost of three different aircraft types to find the minimum cost for each scenario while satisfying passenger needs.The pictures below show the codes in detail.
-![5161a6638aea0362d13840ee6e59e71](https://user-images.githubusercontent.com/116156066/202837931-97f0d01f-ac8a-4f20-b407-ce70b74c3541.jpg)
-![671591dbc8b29c97447bb34700adc18](https://user-images.githubusercontent.com/116156066/202837936-d15c269a-c28f-4437-9d9d-4aea887530ca.jpg)
+<p align = "middle">
+   <img src = "https://user-images.githubusercontent.com/116156066/202837931-97f0d01f-ac8a-4f20-b407-ce70b74c3541.jpg" width = 800>
+  </p>
+<p align = "middle">
+   <img src = "https://user-images.githubusercontent.com/116156066/202837936-d15c269a-c28f-4437-9d9d-4aea887530ca.jpg" width = 800>
+  </p>
 The picture below shows the results of scenario 1.
-![d9cc406243e3f533c531c163d21cf82](https://user-images.githubusercontent.com/116156066/202837994-def83106-b591-4042-87e9-6c89703c6c68.jpg)
+  
+<p align = "middle">
+   <img src = "https://user-images.githubusercontent.com/116156066/202837994-def83106-b591-4042-87e9-6c89703c6c68.jpg" width = 800>
+  </p>
 
 
 <!-- TASK 2: METHODOLOGY, RESULTS AND DISCUSSION -->
@@ -190,22 +199,29 @@ The picture below shows the results of scenario 1.
 
 
 In the progress of solving Task 2, we know that the area of the cost reduction area is fixed according to the given conditions. So if we want to minimize the final navigation cost, the goal we need to achieve is to make the shipping route through the selected area as long as possible. In choosing this cost reduction area, our initial idea is to first set up a block with constant horizontal coordinates and shifting vertical coordinates. Then the vertical coordinates of the region are made to move from the lowest to the highest point at a unit rate of one frame at a time, and the length of the route through the selected region in Task 1 is calculated. At the same time, these length data and the corresponding index of the longitudinal coordinates are stored in a list. When the cycle is completed, the largest data in the list and its corresponding vertical coordinates are found. At this point, we can get the location of the best region. However, since it was not possible to define the lengths of the regions through which the routes in Task 1 passed, we were not able to compare the lengths through which the routes passed in all the location regions according to the initial idea. In order not to interfere with the project, we had to fuzzify the selection of regions in order to find a value approximately close to the correct result.The specific code is shown in the figure below.
- 
-  <img width="187" alt="image" src="https://user-images.githubusercontent.com/116137460/201855509-0e86ca1d-3d1b-41f3-829e-01c808d5c0cf.png">
   
-  <img width="640" alt="image" src="https://user-images.githubusercontent.com/116137460/201855571-c80ea290-85f1-4118-8df9-a3106867b642.png">
-  
-  <img width="372" alt="image" src="https://user-images.githubusercontent.com/116137460/201855688-b2ed62f0-f637-4953-9b38-4a8ac94a8141.png">
-  
-  <img width="565" alt="image" src="https://user-images.githubusercontent.com/116137460/201855738-5a558d74-0e9a-4e2a-99cd-6080aceefbc3.png">
-
+  <p align = "middle">
+    <img width="187" alt="image" src="https://user-images.githubusercontent.com/116137460/201855509-0e86ca1d-3d1b-41f3-829e-01c808d5c0cf.png">
+  </p>
+  <p align = "middle">
+    <img width="640" alt="image" src="https://user-images.githubusercontent.com/116137460/201855571-c80ea290-85f1-4118-8df9-a3106867b642.png">
+  </p>
+  <p align = "middle">
+    <img width="372" alt="image" src="https://user-images.githubusercontent.com/116137460/201855688-b2ed62f0-f637-4953-9b38-4a8ac94a8141.png">
+  </p>
+  <p align = "middle">
+    <img width="565" alt="image" src="https://user-images.githubusercontent.com/116137460/201855738-5a558d74-0e9a-4e2a-99cd-6080aceefbc3.png">
+  </p>
 
 
 
   And the result of the code is just like the plot:
-  ![image](https://user-images.githubusercontent.com/116137460/202368184-a1f27f1a-3e93-4b13-9176-07e447b6f515.png)
-  <img width="576" alt="image" src="https://user-images.githubusercontent.com/116137460/201851986-77b165bb-b1df-4fa0-9400-74a2875f27dc.png">
-
+  <p align = "middle">
+   <img width="700" alt="image" src="https://user-images.githubusercontent.com/116137460/202368184-a1f27f1a-3e93-4b13-9176-07e447b6f515.png">
+  </p>
+  <p align = "middle">
+   <img width="576" alt="image" src="https://user-images.githubusercontent.com/116137460/201851986-77b165bb-b1df-4fa0-9400-74a2875f27dc.png">
+  </p>
 
 
 
@@ -215,11 +231,16 @@ In the progress of solving Task 2, we know that the area of the cost reduction a
 <!-- TASK 3: METHODOLOGY, RESULTS AND DISCUSSION -->
 ## Task 3: Design a new aircraft model within the constrains to achieve minimum cost
 For task3, we need to come up with a suitable aircraft based on the given conditions, such as the number of passengers, fuel bills, fixed costs, etc. At the very beginning, we think it is like a maths problem and our idea to solve this task is divided into two situations, one is when the passenger capacity of the aircraft is less than 300, and the other is when the passenger capacity of the aircraft is more than 300. We can write an equation in code based on given conditions to know the lowest cost and the most suitable aircraft capacity. But when we tried to do this, we found that the number of passengers we calculated was not an integer. After we thought about it for a while, we realized that when we were programming, we didn't define the unknowns enough, which led to inaccurate results. After modifying the code, the program ran correctly and came to a conclusion.
-  ![752e8669f0e086ac9c495ed64db5cfe](https://user-images.githubusercontent.com/116135818/201843643-adcf8a6f-50ca-489c-8d97-ad163bdb0699.jpg)
-
-  ![d7e117580bc20c0bebfa34588fbdb17](https://user-images.githubusercontent.com/116135818/201835915-d3538100-da8c-40a2-9f61-857d1d828d9a.png)
   
-<img width="973" alt="807c72a9b943e31fb2b3e66bf9b1b2d" src="https://user-images.githubusercontent.com/116135818/201843862-d5427733-a0e5-4fe2-bef1-c653c1cb9084.png">
+<p align = "middle">
+    <img src="https://user-images.githubusercontent.com/116135818/201843643-adcf8a6f-50ca-489c-8d97-ad163bdb0699.jpg" width = 800>
+  </p>
+<p align = "middle">
+    <img src="https://user-images.githubusercontent.com/116135818/201835915-d3538100-da8c-40a2-9f61-857d1d828d9a.png" width = 800>
+  </p>
+  <p align = "middle">
+    <img src="https://user-images.githubusercontent.com/116135818/201843862-d5427733-a0e5-4fe2-bef1-c653c1cb9084.png" width = 800>
+  </p>
 
 Like the picture1 and picture 2 showed, we defined all the condition  and list equation. Then we can find the minimum cost in the list through code. What's more, we add a code "PC%50==0" to make the final answer is a integer. And the third picture showed our final result. 
 
