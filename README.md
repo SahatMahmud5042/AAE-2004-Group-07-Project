@@ -32,7 +32,7 @@
   <h2 align="center">AAE 2004 Group 7 Project</h3>
 
   <p align="center">
-    Presentation Link: 
+    Presentation Link: https://youtu.be/JW9re4wjXTo
     <br />
     <br />
     <br />
@@ -73,7 +73,7 @@
          <li><a href="#sahat-mahmud">Sahat Mahmud</a>
          <li><a href="#muhammad-inamul-haq">Muhammad Inamul Haq</a>
          <li><a href="#yajiao-liu">Yajiao Liu</a>
-         <li><a href="#ma-fanshu">Ma Fandhu</a>
+         <li><a href="#ma-fanshu">Ma Fanshu</a>
          <li><a href="#miao-kaili">Miao Kaili</a>
          <li><a href="#ziyang-liu">Ziyang Liu</a>
          <li><a href="#ma-hauyi">Ma Hauyi</a>
@@ -268,6 +268,12 @@ In this team project, I not only learned more professional academic knowledge, b
 ### Ma Fanshu
 It was a pleasure to work with you all on this group project. I was in charge of coding the first step of Task 1 and writing the report for Task 1 in our group. The first step only required setting up obstacles, including cost-intensive areas, and then modifying the program to calculate the time traveled to find the fastest path. Because we had sample cods and could use the framework directly, which means we only needed to modify some data. Therefore, I think the first step was relatively easy and I finished it quickly, just before the end of class in the second week. I have learned a lot from this project, not only learning more programming skills but also working with others and becoming friends with other team members as a result. For me, who had never been involved in programming before, I thought this was an almost impossible task at first, but in the end, we completed it successfully through our hard work. The atmosphere within our group was also particularly significant, we all helped each other out all the time and did not just ignore it because someone else was in charge of this part. Overall, it was great to work with everyone this time.
 ### Ma Hauyi
+
+How can I know the fastest way to earn most profit? If there is a solution, no one will reject it. Before every flight, pilots will have a meeting in the airline company of the flight. Using the updated data to analyze useful information, supporting our safety and their gains. I am glad to learn how to find out the most possible solution based on data support. 
+  When I have the first meet with my groupmates, I am surprised that they are from different places instead of locals. Not only we are communicating in our common language – English, but we also started to work together on the project without knowing one another at first. Therefore, I tried a new communication methods with them that I have not tried it before. About the working place, using GitHub to work on coding online is very convenient. We can work and help with each other when doing exploration and helping groupmates in difficulties. 
+	After this project, I finally realise the importance and convenience of programming. It can do data analyse for large data and that helps human’s activity a lot. We can make our decisions more firm than before now. About the communication among group, I experienced the way to work on with others like in a working place. More initiative in participating group work and the leadership in group takes a more important role is needed than before. About the process of exploration of programming, as we are required to create a coding system through online materials and only can try whether the operations work ourselves, we gain lots of success in solving every difficulty in it. 
+	I believe that the skills we learned in doing data analyse will be used in future working. The coverage of usage is very wide as it can apply in business, engineering and medical, etc. The process of exploration in python’s coding encouraged me to be more aggressive in facing a big problem in the future by solving every tiny problem of it one by one, because I will believe that it will no longer be solved. This makes me more interested in solving problems cause of the sense of success, and even tend to ask myself questions like why this phenomenon is happened.
+	In my view, this project inspires me the way to solve problems, the communication skills with partners and also the working skills in making decision. With good attitude in facing problems, organization in work and programming skills, I can find out the best solutions of every problem. Hopefully, world will be even improved when more people are doing so, other than maintaining the situation nowadays.
 
 
 <!-- REFERENCES -->
