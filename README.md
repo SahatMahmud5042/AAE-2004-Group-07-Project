@@ -182,15 +182,15 @@ In task1, we aim to find an appropriate aircraft model that achieves the minimum
 
 Then we use the multi-conditional judgment of IF statement to compare the cost of three different aircraft types to find the minimum cost for each scenario while satisfying passenger needs.The pictures below show the codes in detail.
 <p align = "middle">
-   <img src = "https://user-images.githubusercontent.com/116156066/202837931-97f0d01f-ac8a-4f20-b407-ce70b74c3541.jpg" width = 800>
+   <img src = "https://user-images.githubusercontent.com/116156066/202837931-97f0d01f-ac8a-4f20-b407-ce70b74c3541.jpg" width = 600>
   </p>
 <p align = "middle">
-   <img src = "https://user-images.githubusercontent.com/116156066/202837936-d15c269a-c28f-4437-9d9d-4aea887530ca.jpg" width = 800>
+   <img src = "https://user-images.githubusercontent.com/116156066/202837936-d15c269a-c28f-4437-9d9d-4aea887530ca.jpg" width = 600>
   </p>
 The picture below shows the results of scenario 1.
   
 <p align = "middle">
-   <img src = "https://user-images.githubusercontent.com/116156066/202837994-def83106-b591-4042-87e9-6c89703c6c68.jpg" width = 800>
+   <img src = "https://user-images.githubusercontent.com/116156066/202837994-def83106-b591-4042-87e9-6c89703c6c68.jpg" width = 600>
   </p>
 
 
